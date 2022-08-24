@@ -51995,6 +51995,25 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: 0.19.0
+    created: "2022-08-24T10:02:12.93323722Z"
+    description: Prometheus SNMP Exporter
+    digest: d1f3c3459fda851141eba119a1f619fd00da29d5d5d624f9dac475fe00084b77
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: maxime@root314.com
+      name: miouge1
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-snmp-exporter-1.2.0/prometheus-snmp-exporter-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 0.19.0
     created: "2022-04-22T08:47:00.607784592Z"
     description: Prometheus SNMP Exporter
     digest: 63ead4d0f6cb55aca20794c5914015f65f8d7a081bbada8337cbd93ec0a88321
@@ -53065,4 +53084,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-23T07:16:02.291847432Z"
+generated: "2022-08-24T10:02:12.95419964Z"
