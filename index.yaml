@@ -34350,6 +34350,30 @@ entries:
   prometheus-cloudwatch-exporter:
   - apiVersion: v1
     appVersion: 0.15.0
+    created: "2022-10-14T09:00:35.996076563Z"
+    description: A Helm chart for prometheus cloudwatch-exporter
+    digest: 6237cb21b2cd68309805f9cdc7ae7d81e975912dd40055f8e62eb298d4f56723
+    home: https://github.com/prometheus/cloudwatch_exporter
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: asher@asherfoa.com
+      name: asherf
+    name: prometheus-cloudwatch-exporter
+    sources:
+    - https://github.com/prometheus/cloudwatch_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-cloudwatch-exporter-0.22.0/prometheus-cloudwatch-exporter-0.22.0.tgz
+    version: 0.22.0
+  - apiVersion: v1
+    appVersion: 0.15.0
     created: "2022-10-13T17:13:52.442915545Z"
     description: A Helm chart for prometheus cloudwatch-exporter
     digest: 22779f95fb0eb48c75ee2622a1cdfe4841f9c9ea1f682947b33e71e128b8bcb5
@@ -55805,4 +55829,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-13T17:13:52.448660671Z"
+generated: "2022-10-14T09:00:36.000231438Z"
