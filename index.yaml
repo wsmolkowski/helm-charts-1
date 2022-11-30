@@ -23543,6 +23543,50 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.39.1
+    created: "2022-11-30T20:28:58.864075078Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 1.21.*
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.22.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 54b67a00478d18c720e1b8e5d1ef21c324e11ea166a972db3411174590c460d6
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-18.2.0/prometheus-18.2.0.tgz
+    version: 18.2.0
+  - apiVersion: v2
+    appVersion: 2.39.1
     created: "2022-11-29T15:30:38.026394891Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -58341,4 +58385,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-29T15:30:38.030612778Z"
+generated: "2022-11-30T20:28:58.8677404Z"
