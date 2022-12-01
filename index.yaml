@@ -38354,6 +38354,28 @@ entries:
   prometheus-elasticsearch-exporter:
   - apiVersion: v1
     appVersion: 1.5.0
+    created: "2022-12-01T18:00:26.877596693Z"
+    description: Elasticsearch stats exporter for Prometheus
+    digest: 380a0462a11ec008051f21b3619aad4f714837376b9abf87c65388a31bdce0e3
+    home: https://github.com/prometheus-community/elasticsearch_exporter
+    keywords:
+    - metrics
+    - elasticsearch
+    - monitoring
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: sven.mueller@commercetools.com
+      name: svenmueller
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: prometheus-elasticsearch-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-elasticsearch-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-elasticsearch-exporter-5.0.0/prometheus-elasticsearch-exporter-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v1
+    appVersion: 1.5.0
     created: "2022-10-16T14:49:04.47291053Z"
     description: Elasticsearch stats exporter for Prometheus
     digest: 1b0c171e9ea5ad8300c5641af154af5ee68ca5d36f10878cd4953207f8e96a15
@@ -58695,4 +58717,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-01T17:56:33.873746755Z"
+generated: "2022-12-01T18:00:26.8808153Z"
