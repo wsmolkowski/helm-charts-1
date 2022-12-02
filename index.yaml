@@ -54895,6 +54895,26 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-postgres-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-pushgateway:
+  - apiVersion: v2
+    appVersion: v1.5.1
+    created: "2022-12-02T09:52:16.837226226Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 10acc19759f7826d81458ae1078cc6dab2a72524893656420c435cf39bf31c2e
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pushgateway-2.0.0/prometheus-pushgateway-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 1.4.2
     created: "2022-11-30T20:53:35.236688815Z"
@@ -58717,4 +58737,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-01T18:00:26.8808153Z"
+generated: "2022-12-02T09:52:16.839935921Z"
