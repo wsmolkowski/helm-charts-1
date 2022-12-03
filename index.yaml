@@ -736,6 +736,27 @@ entries:
   jiralert:
   - apiVersion: v2
     appVersion: "1.2"
+    created: "2022-12-03T09:17:06.183744936Z"
+    description: A Helm chart for Kubernetes to install jiralert
+    digest: 41a7396966a6c115226a6366048b07525190569fc24d05918471d79e4190d45c
+    home: https://github.com/prometheus-community/jiralert
+    keywords:
+    - monitoring
+    - prometheus
+    - alerting
+    - jiralert
+    maintainers:
+    - email: github@jkroepke.de
+      name: jkroepke
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: jiralert
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/jiralert-1.0.1/jiralert-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: "1.2"
     created: "2022-11-25T08:58:46.861604155Z"
     description: A Helm chart for Kubernetes to install jiralert
     digest: 502704bca752d2df2e8cadf75f6838e7251de52372ddd1fc1b0d698d7686b871
@@ -58737,4 +58758,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-02T09:52:16.839935921Z"
+generated: "2022-12-03T09:17:06.190589059Z"
