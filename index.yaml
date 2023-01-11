@@ -58039,6 +58039,27 @@ entries:
   prometheus-rabbitmq-exporter:
   - apiVersion: v1
     appVersion: v0.29.0
+    created: "2023-01-11T15:46:09.079668693Z"
+    description: Rabbitmq metrics exporter for prometheus
+    digest: 51560ba71a268ce2a5e2b6712758fbd1f6c88eb8eab3f7ff79719a1c907f25ed
+    home: https://github.com/kbudde/rabbitmq_exporter
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: abhishekbhardwaj510@gmail.com
+      name: iamabhishek-dubey
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-rabbitmq-exporter
+    sources:
+    - https://github.com/kbudde/rabbitmq_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-rabbitmq-exporter-1.4.0/prometheus-rabbitmq-exporter-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v1
+    appVersion: v0.29.0
     created: "2022-07-25T07:20:34.850104901Z"
     description: Rabbitmq metrics exporter for prometheus
     digest: 50bff2fa928695ca0a7ed8a584adf94277c8670a8a410cf7ef1e2dca728988a6
@@ -60612,4 +60633,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-10T22:17:23.686107051Z"
+generated: "2023-01-11T15:46:09.086867704Z"
