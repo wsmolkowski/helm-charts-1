@@ -55604,6 +55604,38 @@ entries:
         - name: desaintmartin
           email: cedric@desaintmartin.fr
     apiVersion: v2
+    appVersion: 0.62.0
+    created: "2023-01-20T08:53:11.875524685Z"
+    description: 'A Helm chart that collects custom resource definitions (CRDs) from
+      the Prometheus Operator, allowing for seamless integration with GitOps tools '
+    digest: 855642a2e1f394c32aaa3e9c31b965df9e8d883e79423d297d38be13c7fd4b62
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - prometheus
+    - crds
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: dacamposol@gmail.com
+      name: dacamposol
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: prometheus-operator-crds
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-operator-crds-1.0.0/prometheus-operator-crds-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      artifacthub.io/maintainers: |
+        - name: dacamposol
+          email: dacamposol@gmail.com
+        - name: desaintmartin
+          email: cedric@desaintmartin.fr
+    apiVersion: v2
     appVersion: 0.61.1
     created: "2022-12-25T20:02:41.706071195Z"
     description: 'A Helm chart that collects custom resource definitions (CRDs) from
@@ -61123,4 +61155,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-19T14:53:45.669129541Z"
+generated: "2023-01-20T08:53:11.879605549Z"
