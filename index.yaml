@@ -62893,6 +62893,18 @@ entries:
     version: 0.1.0
   prometheus-smartctl-exporter:
   - apiVersion: v2
+    appVersion: v0.9.1
+    created: "2023-04-06T02:06:45.54832277Z"
+    description: A Helm chart for Kubernetes
+    digest: cb94345c7ea433a44b351a66d25491cab92120b9887e39e3d643c9b9e59c9b35
+    maintainers:
+    - name: kfox1111
+    name: prometheus-smartctl-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-smartctl-exporter-0.3.2/prometheus-smartctl-exporter-0.3.2.tgz
+    version: 0.3.2
+  - apiVersion: v2
     appVersion: v0.8.0
     created: "2022-10-11T22:57:13.420701699Z"
     description: A Helm chart for Kubernetes
@@ -64267,4 +64279,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-06T02:02:28.747756184Z"
+generated: "2023-04-06T02:06:45.551880385Z"
