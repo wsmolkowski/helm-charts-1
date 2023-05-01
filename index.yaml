@@ -60291,6 +60291,33 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: 1.18.0
+    created: "2023-05-01T19:38:27.594808819Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~12.2.2
+    description: A Helm chart for prometheus pgbouncer-exporter
+    digest: 539c1d76d7e0cc4b08c603b72d1dbc9b34ee000488dcfa61271242627c1a1896
+    home: https://github.com/prometheus-community/pgbouncer_exporter
+    keywords:
+    - pgbouncer
+    - prometheus
+    - exporter
+    maintainers:
+    - email: stewart.shea@gmail.com
+      name: stewartshea
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-pgbouncer-exporter
+    sources:
+    - https://github.com/prometheus-community/pgbouncer_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pgbouncer-exporter-0.1.1/prometheus-pgbouncer-exporter-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.18.0
     created: "2023-03-06T14:07:49.176429506Z"
     dependencies:
     - condition: postgresql.enabled
@@ -66220,4 +66247,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-01T19:37:08.891345154Z"
+generated: "2023-05-01T19:38:27.598607258Z"
