@@ -47149,6 +47149,43 @@ entries:
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
     appVersion: 0.11.0
+    created: "2023-05-01T19:37:08.886907382Z"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.2.3
+    description: A Helm chart for the Prometheus NGINX Exporter
+    digest: 0baf3caac20f3c5819d8f20bdcf975d775c77c7399a471d2174a12cd508428fa
+    home: https://github.com/nginxinc/nginx-prometheus-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - nginx
+    - monitoring
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-nginx-exporter
+    sources:
+    - https://github.com/nginxinc/nginx-prometheus-exporter
+    - https://github.com/prometheus-community/helm-charts
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-nginx-exporter-0.1.1/prometheus-nginx-exporter-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Nginx exporter
+          url: https://github.com/nginxinc/nginx-prometheus-exporter
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+    apiVersion: v2
+    appVersion: 0.11.0
     created: "2022-11-15T16:28:40.703660479Z"
     dependencies:
     - condition: nginx.enabled
@@ -66183,4 +66220,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-01T19:34:55.869284387Z"
+generated: "2023-05-01T19:37:08.891345154Z"
