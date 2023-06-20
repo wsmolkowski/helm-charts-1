@@ -64239,6 +64239,27 @@ entries:
     version: 2.3.2
   prometheus-pingmesh-exporter:
   - apiVersion: v2
+    appVersion: v1.1.0
+    created: "2023-06-20T13:31:08.064111908Z"
+    description: Prometheus Pingmesh Exporter
+    digest: 0556488b5eed7b0fdab5679897148e08f4edd3ebd92ab2fd65b86e3474582c7d
+    home: https://stack.kubeservice.cn/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - prometheus
+    - pingmesh
+    - monitoring
+    maintainers:
+    - email: dongjiang1989@126.com
+      name: dongjiang1989
+    name: prometheus-pingmesh-exporter
+    sources:
+    - https://github.com/kubeservice-stack/pingmesh-agent
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pingmesh-exporter-0.3.0/prometheus-pingmesh-exporter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: v1.0.1
     created: "2023-06-15T08:27:22.829473778Z"
     description: Prometheus Pingmesh Exporter
@@ -70357,4 +70378,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-20T11:30:10.639668261Z"
+generated: "2023-06-20T13:31:08.069325173Z"
