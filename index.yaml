@@ -27323,6 +27323,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.9.2
+    created: "2023-06-22T14:46:27.268061776Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 7f4921560c62c79ab682952dc740e200012c48aa26723d5176812e756cc0f119
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/kube-state-metrics-5.8.1/kube-state-metrics-5.8.1.tgz
+    version: 5.8.1
+  - apiVersion: v2
+    appVersion: 2.9.2
     created: "2023-06-13T12:25:04.682488535Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: a08e7da1674b8c1fe3b86d5a28874099368f62b14a81a174d0838448ce6953e4
@@ -70428,4 +70453,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-20T15:24:02.957598424Z"
+generated: "2023-06-22T14:46:27.271927608Z"
