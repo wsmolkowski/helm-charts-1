@@ -1275,6 +1275,27 @@ entries:
   jiralert:
   - apiVersion: v2
     appVersion: v1.3.0
+    created: "2023-07-16T08:07:39.177239876Z"
+    description: A Helm chart for Kubernetes to install jiralert
+    digest: 79e8165699b85f51d97f18b3c5ef173a2ae599689b1d9857130b6dd4f59d97dc
+    home: https://github.com/prometheus-community/jiralert
+    keywords:
+    - monitoring
+    - prometheus
+    - alerting
+    - jiralert
+    maintainers:
+    - email: github@jkroepke.de
+      name: jkroepke
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: jiralert
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/jiralert-1.5.0/jiralert-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
+    appVersion: v1.3.0
     created: "2023-06-06T06:03:45.859426385Z"
     description: A Helm chart for Kubernetes to install jiralert
     digest: 7ed89ae68f76153ebbbd19263598935b7976a949224c9ad3c26c92132449d012
@@ -72053,4 +72074,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-14T23:31:47.03526805Z"
+generated: "2023-07-16T08:07:39.181218705Z"
