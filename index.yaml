@@ -55344,6 +55344,26 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-kafka-exporter-0.1.4/prometheus-kafka-exporter-0.1.4.tgz
     version: 0.1.4
+  prometheus-memcached-exporter:
+  - apiVersion: v2
+    appVersion: v0.13.0
+    created: "2023-10-19T15:44:02.245416461Z"
+    description: Prometheus exporter for Memcached metrics
+    digest: 87367b5096d706fd472a174812121d458c41de87124a6b741664dcf8633c9ae1
+    home: https://github.com/prometheus/memcached_exporter
+    keywords:
+    - prometheus
+    - memcached
+    maintainers:
+    - email: roger.sicart@gmail.com
+      name: rsicart
+    name: prometheus-memcached-exporter
+    sources:
+    - https://github.com/prometheus/memcached_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-memcached-exporter-0.1.0/prometheus-memcached-exporter-0.1.0.tgz
+    version: 0.1.0
   prometheus-modbus-exporter:
   - apiVersion: v2
     appVersion: 0.4.0
@@ -78063,4 +78083,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-19T13:42:32.593903833Z"
+generated: "2023-10-19T15:44:02.25252065Z"
