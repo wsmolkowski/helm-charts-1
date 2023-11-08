@@ -47390,6 +47390,30 @@ entries:
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.11.1
+    created: "2023-11-08T18:58:45.131165824Z"
+    description: A Helm chart for k8s prometheus adapter
+    digest: bdba8ea71be37df48a4b522ca56865fabaee017bd12c410ca3a465d3ba7f9f68
+    home: https://github.com/kubernetes-sigs/prometheus-adapter
+    keywords:
+    - hpa
+    - metrics
+    - prometheus
+    - adapter
+    maintainers:
+    - email: mattias.gees@jetstack.io
+      name: mattiasgees
+    - name: steven-sheehy
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    name: prometheus-adapter
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/kubernetes-sigs/prometheus-adapter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-adapter-4.8.1/prometheus-adapter-4.8.1.tgz
+    version: 4.8.1
+  - apiVersion: v1
+    appVersion: v0.11.1
     created: "2023-11-08T15:21:34.952951449Z"
     description: A Helm chart for k8s prometheus adapter
     digest: ebed0231454fcb010c88d748bf61e3d2ccf16014e87068b96398e5c8715ceeff
@@ -78751,4 +78775,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-08T17:15:34.320588406Z"
+generated: "2023-11-08T18:58:45.135402188Z"
