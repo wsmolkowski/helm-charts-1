@@ -61489,6 +61489,27 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-node-exporter-0.1.0.tgz
     version: 0.1.0
+  prometheus-opencost-exporter:
+  - apiVersion: v2
+    appVersion: 1.107.1
+    created: "2023-12-07T15:07:30.864420549Z"
+    description: Prometheus OpenCost Exporter
+    digest: ab5f6568b09020426e6c76f36e733838cbcbe9d6ff789d8aa8e59fb14e650e5a
+    home: https://github.com/opencost/opencost
+    keywords:
+    - opencost
+    - prometheus
+    - exporter
+    maintainers:
+    - email: mattray@kubecost.com
+      name: mattray
+    name: prometheus-opencost-exporter
+    sources:
+    - https://github.com/prometheus-community/opencost_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-opencost-exporter-0.1.0/prometheus-opencost-exporter-0.1.0.tgz
+    version: 0.1.0
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.38.1
@@ -80285,4 +80306,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-07T12:40:09.96934812Z"
+generated: "2023-12-07T15:07:30.868069789Z"
