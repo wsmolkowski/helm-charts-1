@@ -56451,6 +56451,23 @@ entries:
     version: 4.0.0
   prometheus-fastly-exporter:
   - apiVersion: v2
+    appVersion: v7.6.1
+    created: "2023-12-14T02:57:55.101753211Z"
+    description: A Helm chart for the Prometheus Fastly Exporter
+    digest: 8f8734408377f207e3385a258657ee6a182860d759f52562128e25fb9a890feb
+    home: https://github.com/fastly/fastly-exporter
+    keywords:
+    - metrics
+    - fastly
+    - monitoring
+    maintainers:
+    - email: arslanbekov@gmail.com
+      name: arslanbekov
+    name: prometheus-fastly-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-fastly-exporter-0.3.0/prometheus-fastly-exporter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 7.2.4
     created: "2023-09-15T03:17:56.991591492Z"
     description: A Helm chart for the Prometheus Fastly Exporter
@@ -80899,4 +80916,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-14T02:57:12.012135468Z"
+generated: "2023-12-14T02:57:55.106072136Z"
