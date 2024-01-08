@@ -58861,6 +58861,23 @@ entries:
     version: 1.0.0
   prometheus-mysql-exporter:
   - apiVersion: v1
+    appVersion: v0.15.1
+    created: "2024-01-08T11:47:31.418537407Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: b2e4a548965658bc78e6837470ee8ead2ea2e09732312e5a3cfc05053458ffe4
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-mysql-exporter-2.2.1/prometheus-mysql-exporter-2.2.1.tgz
+    version: 2.2.1
+  - apiVersion: v1
     appVersion: v0.15.0
     created: "2023-11-16T08:20:30.245640231Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
@@ -81595,4 +81612,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-08T11:44:09.423208733Z"
+generated: "2024-01-08T11:47:31.422959032Z"
