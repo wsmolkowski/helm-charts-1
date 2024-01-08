@@ -51519,6 +51519,33 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.24.0
+    created: "2024-01-08T12:54:58.54855238Z"
+    description: Prometheus Blackbox Exporter
+    digest: d87bafaf1ca4b44290ba90219bbd19b451526e8cd24a90578ba2138f8aedc89b
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-blackbox-exporter-8.7.0/prometheus-blackbox-exporter-8.7.0.tgz
+    version: 8.7.0
+  - apiVersion: v2
+    appVersion: v0.24.0
     created: "2023-11-17T09:19:41.937666394Z"
     description: Prometheus Blackbox Exporter
     digest: 08817ea5d7ee4649f0a868ed08a3161824cb0e61ffe9b44231114a6668367ea8
@@ -81633,4 +81660,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-08T12:00:19.26796501Z"
+generated: "2024-01-08T12:54:58.55138056Z"
