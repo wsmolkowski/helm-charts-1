@@ -35923,6 +35923,24 @@ entries:
     version: 2.13.2
   prom-label-proxy:
   - apiVersion: v2
+    appVersion: v0.8.0
+    created: "2024-01-10T07:24:09.179040756Z"
+    description: A proxy that enforces a given label in a given PromQL query.
+    digest: 0d9fc68764fbfba973cbafe9661009a585bc396773fa053e6c7d03dbce303a9d
+    home: https://github.com/prometheus-community/prom-label-proxy
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: github@jkroepke.de
+      name: jkroepke
+    name: prom-label-proxy
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prom-label-proxy-0.7.0/prom-label-proxy-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
     appVersion: v0.7.0
     created: "2023-09-12T05:29:13.923952611Z"
     description: A proxy that enforces a given label in a given PromQL query.
@@ -62864,6 +62882,26 @@ entries:
     version: 0.1.0
   prometheus-opencost-exporter:
   - apiVersion: v2
+    appVersion: 1.108.0
+    created: "2024-01-10T07:24:09.314213763Z"
+    description: Prometheus OpenCost Exporter
+    digest: 9ba2428d11ce2c4e2c141db1d6729c2a328b896dfebcb44233e48014faa039eb
+    home: https://github.com/opencost/opencost
+    keywords:
+    - opencost
+    - prometheus
+    - exporter
+    maintainers:
+    - email: mattray@kubecost.com
+      name: mattray
+    name: prometheus-opencost-exporter
+    sources:
+    - https://github.com/prometheus-community/opencost_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-opencost-exporter-0.1.1/prometheus-opencost-exporter-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.107.1
     created: "2023-12-07T15:07:30.864420549Z"
     description: Prometheus OpenCost Exporter
@@ -81773,4 +81811,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-09T17:35:30.380892646Z"
+generated: "2024-01-10T07:24:09.317912384Z"
