@@ -83120,6 +83120,27 @@ entries:
     version: 0.1.0
   prometheus-windows-exporter:
   - apiVersion: v2
+    appVersion: 0.25.1
+    created: "2024-01-25T21:24:46.399051645Z"
+    description: A Helm chart for prometheus windows-exporter
+    digest: 7bff54846f2afd8f39e031f66ca5a9edba5572552be00280ddca531466fe8603
+    home: https://github.com/prometheus-community/windows_exporter/
+    keywords:
+    - windows-exporter
+    - windows
+    - prometheus
+    - exporter
+    maintainers:
+    - email: github@jkroepke.de
+      name: jkroepke
+    name: prometheus-windows-exporter
+    sources:
+    - https://github.com/prometheus-community/windows_exporter/
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.3.0/prometheus-windows-exporter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 0.24.0
     created: "2024-01-10T07:24:55.188644907Z"
     description: A Helm chart for prometheus windows-exporter
@@ -83203,4 +83224,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-25T18:43:24.153788207Z"
+generated: "2024-01-25T21:24:46.403581885Z"
