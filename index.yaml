@@ -82762,6 +82762,29 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
     apiVersion: v2
     appVersion: v0.26.0
+    created: "2024-01-27T11:23:33.493610922Z"
+    description: A Helm chart for prometheus stats-exporter
+    digest: fe75a50fb9f5d15be591207eeed9fca49870c27d9bebabf89b3fd4fd3a138a8f
+    home: https://github.com/prometheus/statsd_exporter
+    keywords:
+    - statsd
+    - prometheus
+    - exporter
+    maintainers:
+    - email: d@rovergulf.net
+      name: scDisorder
+    name: prometheus-statsd-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-statsd-exporter-0.12.0/prometheus-statsd-exporter-0.12.0.tgz
+    version: 0.12.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
+    apiVersion: v2
+    appVersion: v0.26.0
     created: "2023-12-07T12:40:09.965966306Z"
     description: A Helm chart for prometheus stats-exporter
     digest: f4a88dc42ae439ae540d36cb1dd8636917aa7efde0a0de65396002012434752b
@@ -83440,4 +83463,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-26T19:55:28.831402913Z"
+generated: "2024-01-27T11:23:33.498611894Z"
