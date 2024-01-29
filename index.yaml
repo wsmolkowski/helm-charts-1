@@ -83321,6 +83321,24 @@ entries:
   prometheus-systemd-exporter:
   - apiVersion: v2
     appVersion: 0.6.0
+    created: "2024-01-29T18:23:12.083583014Z"
+    description: A Helm chart for prometheus systemd-exporter
+    digest: b67acc52ea7eea6bf60b55543258091b777a2b11b29bcb1d08230540bd5595c7
+    home: https://github.com/prometheus-community/systemd_exporter
+    maintainers:
+    - email: aleroux@wiremind.io
+      name: capuche2412
+    - email: 19607336+maxime1907@users.noreply.github.com
+      name: maxime1907
+    name: prometheus-systemd-exporter
+    sources:
+    - https://github.com/prometheus-community/systemd_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-systemd-exporter-0.2.0/prometheus-systemd-exporter-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.6.0
     created: "2024-01-16T17:34:06.518651639Z"
     description: A Helm chart for prometheus systemd-exporter
     digest: 0610e9dc66a99da92076606855f807fa85c23523885539b3f45953cd24fac833
@@ -83588,4 +83606,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-29T16:06:44.158802246Z"
+generated: "2024-01-29T18:23:12.088590992Z"
