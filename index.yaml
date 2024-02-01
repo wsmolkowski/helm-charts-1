@@ -58837,6 +58837,24 @@ entries:
     version: 0.1.0
   prometheus-ipmi-exporter:
   - apiVersion: v2
+    appVersion: v1.8.0
+    created: "2024-02-01T08:01:44.855009002Z"
+    description: This is an IPMI exporter for Prometheus.
+    digest: 553deb978ff39491c4941f5cb6c76385b5e22e00598f8703e7be7fa4d1ccb32c
+    home: https://github.com/prometheus-community/ipmi_exporter
+    keywords:
+    - metrics
+    - ipmi
+    - monitoring
+    maintainers:
+    - email: f@lex.la
+      name: lexfrei
+    name: prometheus-ipmi-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-ipmi-exporter-0.2.1/prometheus-ipmi-exporter-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
     appVersion: v1.7.0
     created: "2023-11-24T15:22:48.170430087Z"
     description: This is an IPMI exporter for Prometheus.
@@ -83920,4 +83938,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-01T07:54:43.666209304Z"
+generated: "2024-02-01T08:01:44.858907659Z"
