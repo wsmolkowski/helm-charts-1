@@ -61524,6 +61524,27 @@ entries:
   prometheus-nats-exporter:
   - apiVersion: v1
     appVersion: 0.14.0
+    created: "2024-02-02T15:13:49.909383239Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: 4d9538cee298900b7e70ca0090ad12986ebf66325a7997bffbd7d14ae2ecfb88
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-nats-exporter-2.16.0/prometheus-nats-exporter-2.16.0.tgz
+    version: 2.16.0
+  - apiVersion: v1
+    appVersion: 0.14.0
     created: "2024-01-26T08:51:31.648543283Z"
     description: A Helm chart for prometheus-nats-exporter
     digest: 18fc6280b0ca9fc652123f866f0e5f77411fe4afde1c4a6f9accbb0a9803ded6
@@ -84025,4 +84046,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-01T15:33:26.920362765Z"
+generated: "2024-02-02T15:13:49.912170913Z"
