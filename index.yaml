@@ -80422,6 +80422,33 @@ entries:
     version: 0.1.0
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
+    appVersion: v0.8.0
+    created: "2024-04-06T18:38:17.896905275Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~15.0.0
+    description: A Helm chart for prometheus pgbouncer-exporter
+    digest: 963abc2cfe612fea11a424b75aca16a83a73fed141a082fc137d618d081ec265
+    home: https://github.com/prometheus-community/pgbouncer_exporter
+    keywords:
+    - pgbouncer
+    - prometheus
+    - exporter
+    maintainers:
+    - email: stewart.shea@gmail.com
+      name: stewartshea
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-pgbouncer-exporter
+    sources:
+    - https://github.com/prometheus-community/pgbouncer_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pgbouncer-exporter-0.3.0/prometheus-pgbouncer-exporter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: v0.7.0
     created: "2024-03-25T18:02:12.536218586Z"
     dependencies:
@@ -88354,4 +88381,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-06T17:02:44.024815254Z"
+generated: "2024-04-06T18:38:17.902196606Z"
