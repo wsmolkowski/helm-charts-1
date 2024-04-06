@@ -82747,6 +82747,34 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
+    appVersion: v1.8.0
+    created: "2024-04-06T20:57:10.941534549Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 206d677a4a934340e79081ad82fae665ed2712e38648a07505e2b5c20424dd16
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pushgateway-2.10.0/prometheus-pushgateway-2.10.0.tgz
+    version: 2.10.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
     appVersion: v1.7.0
     created: "2024-04-06T17:02:44.021298989Z"
     description: A Helm chart for prometheus pushgateway
@@ -88532,4 +88560,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-06T20:55:16.479061873Z"
+generated: "2024-04-06T20:57:10.945718065Z"
