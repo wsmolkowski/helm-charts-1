@@ -89146,6 +89146,27 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-snmp-exporter-0.0.1.tgz
     version: 0.0.1
+  prometheus-sql-exporter:
+  - apiVersion: v2
+    appVersion: v0.5.4
+    created: "2024-05-13T19:04:32.321165232Z"
+    description: Prometheus SQL Exporter
+    digest: 099545a8bdf8f35b9d923260dfb1cad96146c9f40479c2b711f3dab81d626ef0
+    home: https://github.com/justwatchcom/sql_exporter
+    keywords:
+    - prometheus
+    - sql
+    - monitoring
+    maintainers:
+    - name: wilfriedroset
+    name: prometheus-sql-exporter
+    sources:
+    - https://github.com/justwatchcom/sql_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-sql-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-sql-exporter-0.1.0/prometheus-sql-exporter-0.1.0.tgz
+    version: 0.1.0
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: v0.15.0
@@ -90586,4 +90607,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-13T15:23:28.050810749Z"
+generated: "2024-05-13T19:04:32.324215311Z"
