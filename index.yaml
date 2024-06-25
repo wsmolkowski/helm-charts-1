@@ -88028,6 +88028,27 @@ entries:
   prometheus-rabbitmq-exporter:
   - apiVersion: v1
     appVersion: v0.29.0
+    created: "2024-06-25T16:41:02.061185615Z"
+    description: Rabbitmq metrics exporter for prometheus
+    digest: 6e34340cde17704d6409901567e1b5d7a6a722109af2d6c0d996e1394935e9cd
+    home: https://github.com/kbudde/rabbitmq_exporter
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: abhishekbhardwaj510@gmail.com
+      name: iamabhishek-dubey
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-rabbitmq-exporter
+    sources:
+    - https://github.com/kbudde/rabbitmq_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-rabbitmq-exporter-1.12.0/prometheus-rabbitmq-exporter-1.12.0.tgz
+    version: 1.12.0
+  - apiVersion: v1
+    appVersion: v0.29.0
     created: "2024-02-22T15:08:01.930122896Z"
     description: Rabbitmq metrics exporter for prometheus
     digest: ec56431ff879f210c19ded157e4c9df7663d1e1c6174ced741b7fe957f841814
@@ -92205,4 +92226,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-25T08:29:51.96292684Z"
+generated: "2024-06-25T16:41:02.06476684Z"
