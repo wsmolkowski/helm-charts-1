@@ -65430,6 +65430,27 @@ entries:
   prometheus-json-exporter:
   - apiVersion: v2
     appVersion: v0.6.0
+    created: "2024-06-27T06:38:44.455869894Z"
+    description: Install prometheus-json-exporter
+    digest: 3f0844016da5ca6177ca715f707558b2af46d5cd79476e490fb9abebaee5bd6d
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: schmiddim@gmx.at
+      name: schmiddim
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: github@xiu.io
+      name: xiu
+    name: prometheus-json-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-json-exporter-0.12.0/prometheus-json-exporter-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    appVersion: v0.6.0
     created: "2024-06-08T01:46:42.799746867Z"
     description: Install prometheus-json-exporter
     digest: 53bf6a012e6ff0833820f85361dfbb50bf7abdee50457eff0726bdc1c0fd41b6
@@ -92247,4 +92268,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-27T06:36:23.926399646Z"
+generated: "2024-06-27T06:38:44.459427035Z"
