@@ -42787,6 +42787,24 @@ entries:
   prom-label-proxy:
   - apiVersion: v2
     appVersion: v0.10.0
+    created: "2024-07-06T17:52:31.193938803Z"
+    description: A proxy that enforces a given label in a given PromQL query.
+    digest: 8b9d00040b658f60347dffae85c188c02664a3ebd636e6692e4b8b1e240a952b
+    home: https://github.com/prometheus-community/prom-label-proxy
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: github@jkroepke.de
+      name: jkroepke
+    name: prom-label-proxy
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prom-label-proxy-0.9.0/prom-label-proxy-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: v0.10.0
     created: "2024-06-20T17:35:17.618616599Z"
     description: A proxy that enforces a given label in a given PromQL query.
     digest: d995e8da43b939bf2683383f93d3fce5bbbe4be8657baa10b5131524968b4861
@@ -92986,4 +93004,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-06T12:33:40.34568205Z"
+generated: "2024-07-06T17:52:31.19895528Z"
