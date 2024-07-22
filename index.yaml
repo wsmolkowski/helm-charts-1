@@ -92054,6 +92054,28 @@ entries:
     version: 0.1.0
   prometheus-stackdriver-exporter:
   - apiVersion: v1
+    appVersion: v0.16.0
+    created: "2024-07-22T06:56:01.051032635Z"
+    description: Stackdriver exporter for Prometheus
+    digest: 98dd6fc9ddeeac7a36034395a3b5e596f2872db1e76e506fcc19b518f6d078a9
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: apenney@gmail.com
+      name: apenney
+    - email: pahli88@googlemail.com
+      name: rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/stackdriver_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-stackdriver-exporter-4.6.0/prometheus-stackdriver-exporter-4.6.0.tgz
+    version: 4.6.0
+  - apiVersion: v1
     appVersion: v0.15.1
     created: "2024-07-01T06:41:52.558452879Z"
     description: Stackdriver exporter for Prometheus
@@ -93532,4 +93554,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-21T11:20:43.234081965Z"
+generated: "2024-07-22T06:56:01.054446435Z"
